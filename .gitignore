@@ -1,0 +1,63 @@
+# Compiled binaries and directories
+bin/
+build/
+*.o
+*.d
+*.s
+*.so
+*.a
+
+# In-source compiled binaries
+benchmark_whitepaper_k44
+benchmark_batch_scaling
+error_collapse_test
+
+# Python cache & virtual environments
+__pycache__/
+*.py[cod]
+*$py.class
+.cache/
+.pytest_cache/
+
+# Profiling and traces
+prof_results/
+rocprof_trace/
+*.trace
+*.csv.tmp
+
+# Auxiliary LaTeX build artifacts
+*.aux
+*.log
+*.bbl
+*.blg
+*.out
+
+# OS & Editor files
+.DS_Store
+Thumbs.db
+.obsidian/
+
+# Model weights, checkpoints & compiled wave binaries
+models/
+weights/
+*_ncnn_model/
+*.bin
+*.param
+*.onnx
+*.tcff
+*.tif
+*.wbin
+*.k44plan
+*.safetensors
+*.safetensors.index.json
+*.pt
+*.pth
+*.ckpt
+*.gguf
+*.npz
+*.npy
+*.jld2
+*.bson
+*.h5
+*.hdf5
+*.tflite
